@@ -1,0 +1,95 @@
+body {
+  font-size: 16px;
+  color: #008080;
+  background-color: #fff384;
+  font-family: 'Oxygen', sans-serif;
+}
+h2{font-size: 40px; 
+  color: #008080;
+  font-family: 'Oxygen', sans-serif;
+
+}
+#main-content{
+	background-color: #95b8e3;
+	color: #231f20;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 25px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#hi{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#main-content h3,h4,h5{
+	font-size:30px;
+
+}
+#header-nav {
+  background-color: #fff;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  /*color: #557c3e;*/
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    text-align: center;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  /* End Header */
+
+}
