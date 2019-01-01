@@ -22,6 +22,7 @@ h2{font-size: 40px;
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
+
 #main-content h3,h4,h5{
 	font-size:30px;
 
@@ -49,6 +50,10 @@ h2{font-size: 40px;
 }
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
+#main-content{
+	margin-left:20px;
+	margin-right: 20px;
+	}
   /* Header */
   .navbar-brand {
     padding-top: 10px;
